@@ -201,9 +201,9 @@ Starten Sie jetzt. Ihr kostenloser BrandCheck dauert 60 Sekunden.
 
 function KontaktFormular({ markenname }: { markenname: string }) {
   const [email, setEmail] = useState('');
-  const [gesendet, setGesendet] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'laden' | 'erfolg' | 'fehler'>('idle');
 
-  if (gesendet) {
+  if (status === 'erfolg') {
     return (
       <p className="text-stone-300 text-sm">
         ✓ Vielen Dank. Wir melden uns persönlich bei Ihnen.
@@ -211,21 +211,46 @@ function KontaktFormular({ markenname }: { markenname: string }) {
     );
   }
 
+  const absenden = async () => {
+    if (!email) return;
+    setStatus('laden');
+    try {
+      const antwort = await fetch('/api/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, markenname }),
+      });
+      if (!antwort.ok) throw new Error();
+      setStatus('erfolg');
+    } catch {
+      setStatus('fehler');
+    }
+  };
+
   return (
-    <div className="flex gap-3">
-      <input
-        type="email"
-        placeholder="Ihre E-Mail-Adresse"
-        value={email}
-        onChange={e => setEmail(e.target.value)}
-        className="flex-1 bg-stone-800 border border-stone-700 px-4 py-3 text-white placeholder-stone-500 focus:outline-none focus:border-stone-400 transition-colors text-sm"
-      />
-      <button
-        onClick={() => email && setGesendet(true)}
-        className="bg-white text-stone-900 px-5 py-3 text-xs tracking-widest uppercase hover:bg-stone-100 transition-colors whitespace-nowrap"
-      >
-        Anfragen
-      </button>
+    <div className="space-y-3">
+      <div className="flex gap-3">
+        <input
+          type="email"
+          placeholder="Ihre E-Mail-Adresse"
+          value={email}
+          onChange={e => setEmail(e.target.value)}
+          onKeyDown={e => e.key === 'Enter' && absenden()}
+          className="flex-1 bg-stone-800 border border-stone-700 px-4 py-3 text-white placeholder-stone-500 focus:outline-none focus:border-stone-400 transition-colors text-sm"
+        />
+        <button
+          onClick={absenden}
+          disabled={!email || status === 'laden'}
+          className="bg-white text-stone-900 px-5 py-3 text-xs tracking-widest uppercase hover:bg-stone-100 transition-colors whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          {status === 'laden' ? '...' : 'Anfragen'}
+        </button>
+      </div>
+      {status === 'fehler' && (
+        <p className="text-red-400 text-xs">
+          Etwas hat nicht geklappt. Bitte schreiben Sie uns direkt: jo@spry.works
+        </p>
+      )}
     </div>
   );
 }

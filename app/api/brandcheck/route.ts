@@ -124,7 +124,8 @@ Erstelle den vollständigen Spry BrandCheck Report.
     const message = await client.messages.create({
       model: 'claude-sonnet-4-5',
       max_tokens: 1500,
-      system: SYSTEM_PROMPT,
+     temperature: 0.3,
+  system: SYSTEM_PROMPT,
       messages: [{ role: 'user', content: userMessage }],
     });
 
