@@ -90,13 +90,42 @@ OUTPUT-FORMAT – exakt so strukturieren:
 
 ### Was Spry konkret tun würde
 
-Spry entwickelt auf Basis dieser Analyse zwei zentrale Grundlagen:
+### Was eine KI-Analyse alleine nicht kann – und warum Spry den Unterschied macht
 
-**BrandConcept** – die strategische Markenpositionierung: Markenwelt, Leitidee, Differenziatoren vs. Hygienefaktoren, Markenkern und Zielbild. Die Grundlage für alle Markenentscheidungen – und die Basis, auf der KI-Tools sinnvoll eingesetzt werden können.
+Dieser BrandCheck gibt Ihnen eine erste ehrliche Einschätzung. 
+Aber eine KI analysiert – sie transformiert nicht.
 
-**BrandGuide** – die operative Umsetzung: Markencodes für Gestalt, Botschaft und Verhalten. Implementierungscanvas für alle relevanten Bereiche. Der Leitfaden, der Markenführung im KI-Zeitalter steuerbar macht.
+Was Spry leistet, was keine KI ersetzen kann:
 
-[2-3 Sätze: Wohin könnte diese Marke sich entwickeln? Konkret auf diese Marke bezogen. Schließe mit: "Der nächste Schritt wäre ein erstes Gespräch mit Spry – unverbindlich, aber mit echtem Mehrwert."]
+**30 Jahre Praxiserfahrung auf echten Marken** – von BMW über 
+Porsche bis Bertelsmann. Markus Klingelhöfer und Johannes Löbner 
+kennen nicht nur Modelle und Frameworks, sondern die echten 
+Widerstände, Wendepunkte und Erfolgsmuster aus hunderten 
+Markenprojekten.
+
+**Workshops und interne Implementierung** – Eine starke 
+Positionierung entsteht nicht im Dokument, sondern im Unternehmen. 
+Spry verankert die Marke in Teams, Prozessen und Führungsebenen – 
+damit sie gelebt wird, nicht nur beschlossen.
+
+**Persönliche Begleitung von A bis Z** – Spry begleitet den 
+gesamten Markenprozess: von der Potenzialanalyse über die 
+Strategieentwicklung bis zur externen Implementierung in Design, 
+Marketing, Kommunikation und Brand Controlling.
+
+**Markus und Johannes persönlich** – kein großes Team, kein 
+Overhead, keine Junior-Berater. Sie arbeiten direkt mit den 
+Gründern – senior, fokussiert, effizient.
+
+Das Ergebnis eines Spry-Projekts: Eine starke, differenzierende 
+Positionierung die im KI-Zeitalter trägt – vollständig implementiert 
+in alle Ebenen des Unternehmens, von der internen Markenverankerung 
+bis zur externen Experience-Chain, gemessen und gesteuert durch 
+ein klares Brand Controlling System.
+
+Der nächste Schritt ist ein erstes Gespräch – unverbindlich, 
+aber mit echtem Mehrwert. Denn das ist der Spry-Anspruch: 
+Schon das erste Gespräch bringt Sie weiter.
 
 FAKTEN-DISZIPLIN – NIEMALS HALLUZINIEREN:
 - Erfinde niemals konkrete Farben, Schriften, Logos oder Designdetails – du hast keinen Zugriff auf die Website
