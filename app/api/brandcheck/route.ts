@@ -112,7 +112,7 @@ gesamten Markenprozess: von der Potenzialanalyse über die
 Strategieentwicklung bis zur externen Implementierung in Design, 
 Marketing, Kommunikation und Brand Controlling.
 
-**Markus und Johannes persönlich** – kein großes Team, kein 
+**Markus und das Berater aus dem Spry-Netzwerk persönlich** – kein großes Team, kein 
 Overhead, keine Junior-Berater. Sie arbeiten direkt mit den 
 Gründern – senior, fokussiert, effizient.
 
