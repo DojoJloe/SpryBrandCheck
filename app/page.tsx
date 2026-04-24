@@ -86,7 +86,7 @@ export default function Home() {
             <p className="text-xs tracking-widest uppercase text-stone-400 mb-1">Nächster Schritt</p>
             <h2 className="text-xl font-light mb-3">Sprechen wir über Ihre Marke.</h2>
             <p className="text-stone-400 text-sm mb-6 leading-relaxed">
-              Markus Klingelhöfer und Johannes Löbner – zusammen über 30 Jahre Erfahrung auf Beratungs- und Unternehmensseite in nationalen und internationalen Markenprojekten. Persönlich, erfahren, effizient ohne unnötigen Overhead. Hinterlassen Sie Ihre E-Mail und wir melden uns direkt.
+              Markus Klingelhöfer – über 30 Jahre Erfahrung auf Beratungs- und Unternehmensseite in nationalen und internationalen Markenprojekten. Persönlich, erfahren, effizient ohne unnötigen Overhead. Hinterlassen Sie Ihre E-Mail und wir melden uns direkt.
             </p>
             <KontaktFormular markenname={formDaten.markenname} />
           </div>
