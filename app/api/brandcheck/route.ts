@@ -98,8 +98,7 @@ Aber eine KI analysiert – sie transformiert nicht.
 Was Spry leistet, was keine KI ersetzen kann:
 
 **30 Jahre Praxiserfahrung auf echten Marken** – von BMW über 
-Porsche bis Bertelsmann. Markus Klingelhöfer und Johannes Löbner 
-kennen nicht nur Modelle und Frameworks, sondern die echten 
+Porsche bis Bertelsmann. Markus Klingelhöfer kennt nicht nur Modelle und Frameworks, sondern die echten 
 Widerstände, Wendepunkte und Erfolgsmuster aus hunderten 
 Markenprojekten.
 
